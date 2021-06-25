@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Starting file update..."
-echo pwd
+echo $PWD
 cd /sample-directory
 echo "Jenkins Testing Line" >> "file.conf"
 
